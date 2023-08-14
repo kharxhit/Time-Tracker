@@ -1,0 +1,27 @@
+{
+    "manifest_version":3,
+    "author":"A&K",
+    "name":"Time Tracker",
+    "description":"To be done later",
+    "version":"1.0.0",
+    "action":{
+        "default_icon":{
+          "16": "logo.png",
+          "24": "logo.png",
+          "32": "logo.png"
+        },
+        "default_title": "Time Tracker",
+        "default_popup": "popup.html"
+    },
+    "icons": {
+        "96": "logo.png"
+    },
+    "background": {
+        "service_worker": "background.js"
+    },
+    
+    "permissions": ["activeTab", "tabs", "storage"]
+
+}
+
+ 
